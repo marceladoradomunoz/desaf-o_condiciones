@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(58,9,121,0.3701855742296919) 43%, rgba(0,212,255,1) 100%);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 8vh;
+    flex-direction: row;
+}
+
+.textTitle {
+    text-transform: uppercase;
+    font-size: 4vh;
+}
+
+#catOne,
+#catTwo,
+#catThree {
+    width: 30vh;
+}
+
+#numStickers1,
+#numStickers2,
+#numStickers3 {
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.box {
+    display: flex;
+    margin-top: 4vh;
+    margin-left: 12vh;
+}
+
+#saleStickers {
+    text-transform: uppercase;
+}
+
+button {
+    width: 12vh;
+    height: 4vh;
+}
+
